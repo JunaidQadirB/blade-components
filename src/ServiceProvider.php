@@ -24,6 +24,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $this->loadViewsFrom(__DIR__.'/resources/views/components', 'moonbear/blade-components');
         $this->publishes([
             __DIR__.'/resources/views/components' => resource_path('views/vendor/moonbear/blade-components'),
-        ]);
+        ], 'moonbear-blade-components');
     }
 }
