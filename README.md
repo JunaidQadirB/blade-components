@@ -16,4 +16,6 @@ Since the default theme uses Bootstrap 4.x, you have to install bootstrap and yo
     ```
 ## Usage
 
+https://ball-ui.readthedocs.io/en/latest/
+
 ## Publishing
